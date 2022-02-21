@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập số A"
+        android:textSize="29dp"
+        />
+    <EditText
+        android:id="@+id/editText_A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập số B"
+        android:textSize="29dp"
+        />
+    <EditText
+        android:id="@+id/editText_B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/button_Tong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tổng"/>
+    <Button
+        android:id="@+id/button_Hieu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiệu"/>
+    <Button
+        android:id="@+id/button_Nhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhân"/>
+    <Button
+        android:id="@+id/button_Chia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chia"/>
+    <TextView
+        android:id="@+id/textview_Ketqua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả:"
+        android:textSize="29dp"
+        />
+
+</LinearLayout>
